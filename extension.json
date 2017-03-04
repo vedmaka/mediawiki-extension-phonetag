@@ -21,7 +21,7 @@
 			]
 	},
 	"MessagesDirs": {
-		"Snapshots": [
+		"PhoneTag": [
 			"i18n"
 		]
 	},
@@ -34,7 +34,8 @@
 				"modules/phonetag.css"
 			],
 			"messages": [],
-			"dependencies": []
+			"dependencies": [],
+			"position": "top"
 		}
 	},
 	"ResourceFileModulePaths": {
