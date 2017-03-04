@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+
+    a.phone-tag-link:hover,
+    a.phone-tag-link:visited,
+    a.phone-tag-link {
+        color: black;
+        text-decoration: none;
+        pointer-events: none;
+    }
+    
+}

@@ -1,0 +1,44 @@
+{
+	"name": "PhoneTag",
+	"version": "0.1.0",
+	"author": [
+		"jon"
+	],
+	"url": "https://github.com/...",
+	"descriptionmsg": "phonetag-desc",
+	"license-name": "GPL v2",
+	"type": "other",
+	"AutoloadClasses": {
+		"PhoneTag": "PhoneTag.class.php",
+		"PhoneTagHooks": "PhoneTag.hooks.php"
+	},
+	"ExtensionMessagesFiles": {
+		"PhoneTagMagic": "PhoneTag.i18n.magic.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+				"PhoneTagHooks::onParserFirstCallInit"
+			]
+	},
+	"MessagesDirs": {
+		"Snapshots": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.phonetag.foo": {
+			"scripts": [
+				"modules/phonetag.js"
+			],
+			"styles": [
+				"modules/phonetag.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PhoneTag"
+	}
+}
